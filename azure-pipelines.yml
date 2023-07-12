@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: Demo 1
+  vmImage: HRIS_Agent
 
 steps:
 - task: Maven@3
