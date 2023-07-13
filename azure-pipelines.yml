@@ -7,7 +7,12 @@ trigger:
 - main
 
 pool:
-  vmImage: Demo 1
+
+   name: HRIS_New
+
+   demands: 
+
+     - agent.name -equals HRIS_AgentNew
 
 steps:
 - task: Maven@3
